@@ -4,6 +4,10 @@ html {
     font-family: 'RoslindaleText';
 }
 
+body {
+    background-color: #fbe6ea;
+}
+
 .container {
     max-width: 650px;
     margin: 0 auto;
