@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background-color: #a8d1e7;
+    background-color: #ffd1f1;
+    color: rgb(2, 52, 128);
 }
 
 .container {
@@ -14,6 +15,16 @@ body {
 }
 
 p {
-    line-height: 2rem;
-    font-size: 1.2rem;
+    line-height: 2.4rem;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: rgb(143, 0, 172);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
 }
