@@ -6,12 +6,15 @@ html {
 
 body {
     background-color: #ffd1f1;
-    color: rgb(2, 52, 128);
+    color: blue;
 }
 
 .container {
     max-width: 650px;
     margin: 0 auto;
+    border: 0.2em solid blue;
+    border-radius: 0.5em;
+    padding: 1em;
 }
 
 p {
@@ -22,9 +25,25 @@ p {
 
 a:link, a:visited, a:hover, a:active {
     color: rgb(143, 0, 172);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
     text-align: center;
     font-size: 3em;
+    text-decoration: underline;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.big-pic {
+    border: 0.2em solid blue;
+    border-radius: 0.5em;
 }
