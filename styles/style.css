@@ -5,14 +5,14 @@ html {
 }
 
 body {
-    background-color: #ffd1f1;
-    color: blue;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .container {
     max-width: 650px;
     margin: 0 auto;
-    border: 0.2em solid blue;
+    border: 0.2em solid #000000;
     border-radius: 0.5em;
     padding: 1em;
 }
@@ -44,6 +44,6 @@ h1 {
 }
 
 .big-pic {
-    border: 0.2em solid blue;
+    border: 0.2em solid #000000;
     border-radius: 0.5em;
 }
